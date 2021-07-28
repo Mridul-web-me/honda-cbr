@@ -7,15 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* COMMON CSS */
-.banner .container .row .col-lg-6 .btn {
-    background: #E76F51;
-    color: #fff;
-    outline: none;
-    border: none;
-    width: 168px;
-    padding: 10px;
-}
+/*---------------
+    COMMON CSS 
+ ------------------*/
+
 
 .heading-text {
     font-size: 48px;
@@ -28,7 +23,7 @@
 }
 
 /*------------
- HEADER 
+    HEADER 
  -------------*/
 
 header {
@@ -68,6 +63,15 @@ header nav .btn:hover {
     padding: 35px 15px;
 }
 
+.banner .container .row .col-lg-6 .btn {
+    background: #E76F51;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 168px;
+    padding: 10px;
+}
+
 .banner .container .row .col-lg-6 h1 {
     font-size: 48px;
     font-weight: bold;
@@ -80,7 +84,9 @@ header nav .btn:hover {
 }
 
 
-/* FEATERED BIKE */
+/*-----------------
+    FEATERED BIKE 
+ -------------------*/
 .featured-bike {
     position: relative;
 }
@@ -124,7 +130,9 @@ header nav .btn:hover {
 }
 
 
-/* Latest News */
+/*------------------
+     Latest News 
+ -------------------*/
 .latest-news {
     padding: 80px 0;
 }
@@ -169,6 +177,11 @@ header nav .btn:hover {
     color: #fff;
 }
 
+.latest-news .container .row .col .card .card-body {
+    padding: 40px 0;
+    margin: 0;
+}
+
 .latest-news .container .row .col:nth-child(1) .card .btn {
     background: #E76F51;
     color: #fff;
@@ -181,7 +194,9 @@ header nav .btn:hover {
 }
 
 
-/* CLIENTS */
+/*----------------
+    CLIENTS 
+------------------*/
 .clients {
     padding-bottom: 50px;
 }
@@ -228,7 +243,9 @@ header nav .btn:hover {
     padding: 5px;
 }
 
-/* FAQ */
+/*--------------
+        FAQ
+ ---------------- */
 .faq .container .clients-text {
     padding: 60px 0;
 }
@@ -245,7 +262,9 @@ header nav .btn:hover {
     font-size: 20px;
 }
 
-/* BRANDS */
+/*--------------
+     BRANDS 
+ ---------------*/
 .brands {
     padding: 60px 0;
 }
@@ -292,8 +311,8 @@ header nav .btn:hover {
 }
 
 
-/* ------------
-FOOTER
+/* -------------
+     FOOTER
 ---------------- */
 
 footer {
@@ -314,3 +333,9 @@ footer .container .row .col ul li {
 footer .container .row .col ul li a {
     padding-right: 25px;
 }
+
+
+
+/* ==========================
+        Completed
+==============================*/
