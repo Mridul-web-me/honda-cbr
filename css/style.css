@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -20,6 +20,11 @@
 .heading-text {
     font-size: 48px;
     font-weight: 700;
+    color: #E76F51;
+}
+
+.heading-text span {
+    color: #0A0826;
 }
 
 /* HEADER */
@@ -29,7 +34,7 @@ header {
 }
 
 header nav.navbar.navbar-expand-lg.navbar-dark {
-    padding: 35px 0;
+    padding: 35px 0px;
 }
 
 header nav ul {
@@ -58,7 +63,7 @@ header nav .btn:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 35px 0;
+    padding: 35px 15px;
 }
 
 .banner .container .row .col-lg-6 h1 {
@@ -96,6 +101,7 @@ header nav .btn:hover {
     display: block;
     height: 3px;
     left: calc(50% - 20px);
+    margin: 15px 0;
 }
 
 .featured-bike .container .row .col-lg-4 {
@@ -117,7 +123,188 @@ header nav .btn:hover {
 
 
 /* Latest News */
+.latest-news {
+    padding: 80px 0;
+}
+
+.latest-news .container .latest-text {
+    padding: 20px 0;
+}
 
 .latest-news .container .latest-text .heading-text {
     color: #0A0826;
+}
+
+.latest-news .container .row {
+    padding: 20px 0;
+}
+
+.latest-news .container .row .col .card {
+    border: none;
+}
+
+.latest-news .container .row .col .card h5 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #18191F;
+}
+
+.latest-news .container .row .col .card p {
+    color: #6C6C6C;
+}
+
+.latest-news .container .row .col .card .btn {
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    padding: 15px;
+    border-radius: 5px;
+    width: 160px;
+    font-weight: 600;
+}
+
+.latest-news .container .row .col .card .btn:hover {
+    background: #E76F51;
+    color: #fff;
+}
+
+.latest-news .container .row .col:nth-child(1) .card .btn {
+    background: #E76F51;
+    color: #fff;
+}
+
+.latest-news .container .row .col:nth-child(1) .card .btn:hover {
+    background: #fff;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
+
+
+/* CLIENTS */
+.clients {
+    padding-bottom: 50px;
+}
+
+.clients .container .clients-text {
+    padding: 50px 0;
+}
+
+
+
+.clients .container .row .col .card img {
+
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+
+}
+
+.clients .container .row .col .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients .container .row .col .card .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.clients .container .row .col .card .card-body h4 {
+    color: #252B42;
+}
+
+.clients .container .row .col .card .card-body p {
+    color: #6C6C6C;
+}
+
+.clients .container .row .col .card .card-body .ratings a {
+    color: #E76F51;
+    font-size: 22px;
+    padding: 5px;
+}
+
+/* FAQ */
+.faq .container .clients-text {
+    padding: 60px 0;
+}
+
+.faq .container .row {
+    padding: 60px 0;
+}
+
+.faq .container .row .accordion .accordion-item .accordion-header button.accordion-button.collapsed {
+    font-size: 20px !important;
+}
+
+.faq .container .row .accordion .accordion-item .accordion-header button.accordion-button {
+    font-size: 20px;
+}
+
+/* BRANDS */
+.brands .container .brand-text {
+    padding: 50px 0;
+}
+
+.brands .container .row .col .brand-name {
+    position: relative;
+    box-shadow: 0 0 15px grey;
+    padding: 0 15px;
+}
+
+.brands .container .row .col img {}
+
+.brands .container .row .col p {
+    position: abolute;
+    bottom: 0;
+}
+
+
+
+/* --------------
+    Login Form
+------------------ */
+.login-form {
+    background: #264653;
+    padding: 60px 0;
+}
+
+.login-form .container .login-text {
+    padding: 30px 0;
+}
+
+.login-form .container form .btn {
+    background: #E76F51;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* ------------
+FOOTER
+---------------- */
+
+footer {
+    background: #0B0D17;
+    padding: 60px 0;
+}
+
+footer .container .row .col ul {
+    margin: 0;
+    padding: 12px 0;
+}
+
+footer .container .row .col ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer .container .row .col ul li a {
+    padding-right: 25px;
 }
