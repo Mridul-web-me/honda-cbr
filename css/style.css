@@ -27,7 +27,9 @@
     color: #0A0826;
 }
 
-/* HEADER */
+/*------------
+ HEADER 
+ -------------*/
 
 header {
     background: #264653;
@@ -244,6 +246,10 @@ header nav .btn:hover {
 }
 
 /* BRANDS */
+.brands {
+    padding: 60px 0;
+}
+
 .brands .container .brand-text {
     padding: 50px 0;
 }
