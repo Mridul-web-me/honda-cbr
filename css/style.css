@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* COMMON CSS */
+.banner .container .row .col-lg-6 .btn {
+    background: #E76F51;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 168px;
+    padding: 10px;
+}
+
+.heading-text {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* HEADER */
+
+header {
+    background: #264653;
+}
+
+header nav.navbar.navbar-expand-lg.navbar-dark {
+    padding: 35px 0;
+}
+
+header nav ul {
+    margin-right: 100px;
+}
+
+header nav ul li {
+    margin-right: 35px;
+}
+
+header nav .btn {
+    background: #E76F51;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header nav .btn:hover {
+    color: #fff;
+}
+
+.banner .container .row .col-lg-6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 0;
+}
+
+.banner .container .row .col-lg-6 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 18px 0;
+}
+
+.banner .container .row .col-lg-6 p {
+    color: #E0E0E0;
+}
+
+
+/* FEATERED BIKE */
+.featured-bike {
+    position: relative;
+}
+
+
+.featured-bike .container .featured-text {
+    padding: 70px 0;
+}
+
+.featured-bike .container .featured-text p {
+    color: #E76F51;
+    font-weight: 600;
+}
+
+.featured-bike .container .featured-text p::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    background: #E76F51;
+    display: block;
+    height: 3px;
+    left: calc(50% - 20px);
+}
+
+.featured-bike .container .row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.featured-bike .container .row .col-lg-4 img {
+    width: 290px;
+    height: 240px;
+    filter: grayscale(100);
+}
+
+.featured-bike .container .row .col-lg-4:nth-child(2) img {
+    filter: grayscale(0);
+}
+
+
+/* Latest News */
+
+.latest-news .container .latest-text .heading-text {
+    color: #0A0826;
+}
