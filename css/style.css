@@ -96,6 +96,10 @@ header nav .btn:hover {
     padding: 70px 0;
 }
 
+.featured-bike .container .featured-text .heading-text {
+    color: #000000;
+}
+
 .featured-bike .container .featured-text p {
     color: #E76F51;
     font-weight: 600;
