@@ -212,11 +212,10 @@ header nav .btn:hover {
 
 
 .clients .container .row .col .card img {
-
     border-radius: 50%;
     height: 250px;
     width: 250px;
-
+    padding: 30PX;
 }
 
 .clients .container .row .col .card {
